@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first,
+.second {
+    width: 100%;
+}
+
+.first {
+    height: 7%;
+}
+
+.second {
+    height: 90%;
+    overflow: auto;
+}
+
+.second::-webkit-scrollbar {
+    display: none;
+}
+
+.first form {
+    width: 100%;
+    display: flex;
+}
+
+.first input {
+    width: 90%;
+    padding: 10px;
+}
+
+.first button {
+    width: 10%;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.second .items {
+    width: 100%;
+    display: flex;
+}
+
+.items:nth-child(odd) {
+    background-color: gray;
+    color: white;
+}
+
+.second div {
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.items img {
+    height: 300px;
+    width: 500px;
+}
+
+.items a {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
